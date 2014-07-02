@@ -15,7 +15,7 @@ namespace test
             for (int i = 0; i < 50; i++)
             {
                 //  int i = 0;
-                LogManager.GetLogger(typeof(MainClass)).Error("Test Ado Net Logger at: " + DateTime.Now + "cont " + i);
+                LogManager.GetLogger(typeof(MainClass)).Error("Test Logger at: " + DateTime.Now + "cont " + i);
             }
             //watch.Stop();
 
